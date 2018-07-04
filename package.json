@@ -1,0 +1,31 @@
+{
+  "name": "basic-webpack-setup",
+  "version": "1.0.0",
+  "description": "Basic Webpack Setup",
+  "private": true,
+  "presets":  ["env"],
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theAndrewCline/basic-webpack-setup.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Andrew Cline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theAndrewCline/basic-webpack-setup/issues"
+  },
+  "homepage": "https://github.com/theAndrewCline/basic-webpack-setup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {}
+}
